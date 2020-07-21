@@ -1,0 +1,38 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.hidden {
+    display: none;
+}
+.error {
+    border: 1px solid #e74c3c !important;
+}
+button.forward[disabled] {
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition: background .5s ease;
+    -moz-transition: background .5s ease;
+    -webkit-transition: background .5s ease;
+    -o-transition: background .5s ease;
+    display: inline-block;
+    cursor: not-allowed !important;
+    outline: none;
+    text-align: center;
+    background: #898ef7 !important;
+    position: relative;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 15px 50px;
+    pointer-events: none;
+
+}
+button.submit {
+    margin-top: 20px !important;
+}
